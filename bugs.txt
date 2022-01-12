@@ -1,0 +1,8 @@
+Bugs in methods:
+
+In the two methods I focused on, I found a bug in one of them:
+
+ConvertToAtlasCopcoString:
+    Bug found with test case test_convert_ok when all valid values were looped to test the method.
+    The test case fail when reaching integer = 87
+    Instead of "Atlas" (87 is divisible by 3) an "ERROR" is returned
