@@ -17,7 +17,7 @@ def test_reverse_string_manual_ok():
 def test_reverse_string_odd_characters_ok():
     """
     **Description:**
-        Test case that verifies that method 'ReverseString' reverses string correctly
+        Test case that verifies that method 'ReverseString' reverses string correctly with python built in function
     """
     string_to_test = "string should be reversed. AND Different characters: ,;!#¤%&/[]{}@£$()=`´*-_<>½^~"
     string_to_test_reverse = string_to_test[::-1]
