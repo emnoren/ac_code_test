@@ -9,3 +9,6 @@ pytest was used for the unit tests, hence this might need to be installed inital
 pip install pytest
 
 PyCharm is recommended to use as a Python IDE
+
+Bugs found in the methods tested are described in a separate text file:
+bugs.txt
